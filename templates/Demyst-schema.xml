@@ -87,4 +87,12 @@
       <option name="JSON" value="true" />
     </context>
   </template>
+  <template name="c" value="{ &quot;name&quot;: &quot;$NAME$&quot;, &quot;type&quot;: &quot;$TYPE$&quot;, &quot;description&quot;: &quot;$DESCRIPTION$&quot; }," description="Field:City" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="snakeCase(clipboard())" defaultValue="" alwaysStopAt="false" />
+    <variable name="TYPE" expression="" defaultValue="&quot;City&quot;" alwaysStopAt="false" />
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
 </templateSet>
